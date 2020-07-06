@@ -131,12 +131,14 @@ export default class Portfolio extends Component {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Contact</h1>
+            <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              Contact
+            </h1>
             <div
               id="portfolio-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"
             >
-              <label for="inp" className="inp">
+              <label for="inp" data-aos="zoom-in" className="inp">
                 <input
                   type="text"
                   id="inp"
@@ -148,7 +150,7 @@ export default class Portfolio extends Component {
                 <span className="label">Name*</span>
                 <span className="focus-bg" />
               </label>
-              <label for="inp" className="inp">
+              <label for="inp" data-aos="zoom-in" className="inp">
                 <input
                   type="email"
                   name="email"
@@ -160,7 +162,7 @@ export default class Portfolio extends Component {
                 <span className="label">Email*</span>
                 <span className="focus-bg" />
               </label>
-              <label for="inp" className="inp">
+              <label for="inp" data-aos="zoom-in" className="inp">
                 <textarea
                   type="text"
                   name="message"
@@ -173,7 +175,7 @@ export default class Portfolio extends Component {
                 <span className="focus-bg" />
 
                 <br />
-                <div>
+                <div data-aos="zoom-in-left">
                   <button
                     onClick={this.onSubmitForm}
                     disabled={!this.state.verified}
