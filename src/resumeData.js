@@ -47,6 +47,13 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "everis",
+      specialization: "Senior Software Engineer",
+      MonthOfLeaving: "",
+      YearOfLeaving: "",
+      Achievements: "Angular developer in Itau Bank project",
+    },
+    {
       CompanyName: "Unimed Uberlândia",
       specialization: "Full development analyst",
       MonthOfLeaving: "Jan",
@@ -61,7 +68,7 @@ let resumeData = {
       Achievements: "Developing in Spring and Angular",
     },
     {
-      CompanyName: "Everis",
+      CompanyName: "everis",
       specialization: "Junior Developer",
       MonthOfLeaving: "Jan",
       YearOfLeaving: "2019",
